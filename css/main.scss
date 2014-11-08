@@ -6,16 +6,16 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Tacoma, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #f0f0f0;
+$background-color: #000000;
+$brand-color:      #00ffff;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -47,3 +47,23 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+body 
+	{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	}
+	
+h1, h2, h3, h4, h5, h6 
+	{
+	font-family: Verdana, sans serif;
+	text-decoration: none;
+	color: ffcc33;
+	}
+	
+p 
+	{
+	text-align: justify;
+	text-indent: 3%;
+	}
