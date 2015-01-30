@@ -1,0 +1,131 @@
+body
+{
+	background-color: #000000;
+	color: #d8d8d8;
+	font-family: Tacoma, Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-title
+{
+	font-family: Verdana, sans serif;
+	color: #ffcc33;
+	font-size: 64px;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline;
+}	
+
+.site-description
+{
+	font-family: Verdana, sans serif;
+	color: #ffcc33;
+	text-decoration: none;
+}
+
+.site-nav
+{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.site-nav ul
+{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.site-nav ul li
+{
+	display: inline;
+	width: 16.6%;
+	float: left;
+}
+
+.site-nav ul li a
+{
+	color: #00ffff;
+	color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	transition: all 0.5s ease-in-out;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+    text-decoration: none;
+	width: 160px;
+}
+
+.site-nav ul li a:hover
+{
+	color: #fff;
+	background: rgba(255, 255, 255, 0.50);
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+dt
+{
+	font-family: Verdana, sans serif;
+}
+
+dt.theme 
+{
+	color: #ffcc33;
+}
+
+dd
+{
+	padding-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Verdana, sans serif;
+	text-decoration: none;
+	color: #ffcc33;
+}
+
+p
+{
+	text-align: justify;
+}
+
+.title
+{
+	color: #ffcc33;
+}
+
+a
+{
+	color: #CFECFF;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #00ffff;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: gold;
+	background: rgba(255, 255, 255, .015);
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #00FFCC;
+	text-decoration: none;
+}

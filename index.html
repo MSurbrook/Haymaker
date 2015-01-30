@@ -4,29 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">HAYMAKER!</h1>
-  <h5>An APAzine for the HERO System.</h5>
+  <h2>Welcome to Haymaker!</h2>
 
-	<h4>Welcome to Haymaker!</h4>
-
-	<p>Haymaker! is an <a href="http://en.wikipedia.org/wiki/Amateur_press_association" target="blank"><strong>Amateur Press Association</strong></a> magazine (APAzine) supporting the <a href="http://www.herogames.com/index.html" target="blank"><em><strong>HERO System</strong></em></a> (a multi-genre role-playing game). This small press production was founded in 1992 and is currently distributed quarterly in electronic format to all contributors. Please note that issues of <em>Haymaker!</em> are <strong>not</strong> available for subscription or sale to the general public.</p>
+	<p>Haymaker! is an <a href="http://en.wikipedia.org/wiki/Amateur_press_association" target="blank"><strong>Amateur Press Association</strong></a> magazine (APAzine) supporting the <a href="http://www.herogames.com/index.html" target="blank"><em><strong><em>HERO System</em></strong></em></a> (a multi-genre role-playing game). This small press production was founded in 1992 and is currently distributed quarterly in electronic format to all contributors. Please note that issues of <em>Haymaker!</em> are <strong>not</strong> available for subscription or sale to the general public.</p>
 
 	<p>If you're interested in writing and becoming a contributor to <em>Haymaker!</em>, please read our <strong>Contributor's Guidelines</strong> and <a href="mailto:john@herostuff.net"><strong>contact our coordinator</strong></a>. We're also looking for good artists to provide cover art; again, <a href="mailto:john@herostuff.net"><strong>contact our coordinator</strong></a> if you're interested.</p>
 
 	<p>Even if neither of these applies to you, please feel free to follow the links on top to learn more about <em>Haymaker!</em>, check out the covers and contents of our past issues, and see other sites related to Hero Games or other topics of interest to gamers.</p>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

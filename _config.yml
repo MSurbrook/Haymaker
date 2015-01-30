@@ -1,12 +1,14 @@
 # Site settings
-title: Haymaker!
+title: HAYMAKER!
 email: john@herostuff.net
 description: An APAzine for the HERO System.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.haymaker.org" # the base hostname & protocol for your site
-twitter_username:
-github_username:
-paginate: 10
+# twitter_username:
+# github_username:
 
 # Build settings
 markdown: kramdown
+
+paginate: 10
+paginate_path: "issues/page:num/"
